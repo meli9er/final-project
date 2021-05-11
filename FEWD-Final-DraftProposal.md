@@ -32,4 +32,4 @@ The FEWD-323 Final Project website is meant to illustrate some of the app’s in
 
 |      |                                                              |
 | ---- | ------------------------------------------------------------ |
-|      | ![img](.\clip_image001.jpg)*Wire Frame Draft (one of the below)* |
+|      | ![img](clip_image001.jpg)*Wire Frame Draft (one of the below)* |
