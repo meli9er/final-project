@@ -1,1 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;700;900&display=swap');
+
+
+p {
+    margin: 0;
+    font: normal normal 800 9px 'Work Sans', sans-serif;
+}
+/* font-family: 'Raleway', sans-serif; */
+
+
+/* * {
+    border: 2px solid gray;
+} */
+
+body {
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+    justify-content: center;
+    display: flex;
+    background-color: lightblue;
+}
+
+.container {
+    height: 100vh;
+    max-width: 888px;
+    min-width: 888px;
+    /* max-height: 630px;
+    min-height: 630px; */
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.header {
+    height: 12%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.toplogo {
+    box-sizing: border-box;
+    flex-basis: 18%;
+    overflow: hidden;
+    font: normal normal 600 26px 'Work Sans', sans-serif;
+    text-transform: uppercase;
+    color: #333538;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.topnav {
+    box-sizing: border-box;
+    flex-basis: 60%;
+    overflow: hidden;
+    display: flex;
+}
+
+.toplogo {
+    text-transform: initial;
+}
+
+.search {
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: 18%;
+    overflow: hidden;
+}
+
+.search input {
+    width: 95%;
+}
+
+.main {
+    height: 80%;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.phonebanner {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+    /* background-image: url("iphoneblank.jpg");
+    background-repeat: no-repeat; */
+    /* color: red; */
+}
+
+.phonebannerimage {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    width: 100%;
+    height: 85%;
+    /* border: 2px solid purple; */
+    background-image: url("iphoneblank.jpg");
+    background-repeat: no-repeat;
+}
+
+.phonebannertext {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-around;
+    width: 100%;
+    height: 15%;
+    /* border: 2px solid pink; */
+}
+
+.featurebanner {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: space-around;
+    width: 60%;
+    /* border: 2px solid red; */
+}
+
+.featurerow {
+    display: flex;
+    box-sizing: border-box;
+    height: 50%;
+    justify-content: space-between;
+    /* border: 2px solid green; */
+}
+
+
+.feature {
+    box-sizing: border-box;
+    flex-basis: 50%;
+    overflow: hidden;
+    background-size: cover;
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    /* border: 2px solid blue; */
+}
+
+.featureimage {
+    box-sizing: border-box;
+    flex-basis: 80%;
+    overflow: hidden;
+    background-size: cover;
+    display: flex;
+}
+
+
+.info {
+    box-sizing: border-box;
+    flex-basis: 20%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.photo div {
+    box-sizing: border-box;
+    flex-basis: 100%;
+    overflow: hidden;
+    background-size: cover;
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-around;
+    align-items:center;
+    
+}
 
