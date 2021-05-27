@@ -13,10 +13,10 @@
         <div class="header">
             <div class="toplogo">eMarker</div>
             <div class="topnav">
-                <div class="item1">Item1</div>
+                <!-- <div class="item1">Item1</div>
                 <div class="item2">Item2</div>
                 <div class="item3">Item3</div>
-                <div class="item4">Item4</div>
+                <div class="item4">Item4</div> -->
                 <div class="search">
                     <input type="text" placeholder="Search">
                 </div>
@@ -26,44 +26,55 @@
         <div class="main">
             <div class="phonebanner">
                 <div class="phonebannerimage">
+                    <img id="homescreen" src="images/HomeScreen.jpg" alt="App Load Screen">
                 </div>
                 <div class="phonebannertext">
-                    <h2>bla bla</h2>
+                    <h2>eMarker App Previewer</h2>
+                </div>
+                <div class="phonebannerdirections">
+                    <p>Hover curser over feature description to preview phone screen.</p>
                 </div>
             </div>
                
             <div class="featurebanner">
                 <div class="featurerow">
-                    <div class="feature">
-                        <h3>Get notified</h3>
-                        <h4>on the road</h4>
+                    <div class="feature" id="notified">
+                        <div class="featuretitle">
+                            <h3>Get notified<span id="accent2">on the road</span></h3>
+                        </div>
                         <div class="featureimage">
-                            <!-- put image here -->
+                            <img class="circular--square" src="images/MapPagewNotification-sq.jpg" alt="Map with Notification">
                         </div>                        
-                        <p>asldjs sdfgd sfgsdfg sdfg faksdj</p>
+                        <p>Exploring or want to take a short brake while driving? Receive push notifications about nearby markers as your're driving along your route.</p>
                     </div>
-                    <div class="feature">
-                        <h3>View nearby marker info</h3>
+                    <div class="feature" id="info">
+                        <div class="featuretitle">
+                            <h3>View info<span id="accent">about nearby markers</span></h3>
+                        </div>
                         <div class="featureimage">
-                            <!-- put image here -->
+                            <img class="circular--square" src="images/MarkerInfo-sq.jpg" alt="Text data">
                         </div>                        
-                        <p>asld jssdfgd sfgsdfgs dfgf aksdj</p>
+                        <p>Not sure if you'd like to stop and see a marker? Find out more about an upcoming marker's topic with integrated text-to-speech for safety.</p>
                     </div>
                 </div>
                 <div class="featurerow">
-                    <div class="feature">
-                        <h3>See a photo of the marker</h3>
-                        <div class="featureimage">
-                            <!-- put image here -->
+                    <div class="feature" id="photos">
+                        <div class="featuretitle">
+                            <h3>See photos<span id="accent2">of markers</span></h3>
                         </div>
-                        <p>asld jssd fgdsfg sdfg dfg faksdj</p>
-                    </div>
-                    <div class="feature">
-                        <h3>Explore from home</h3>
                         <div class="featureimage">
-                            <!-- put image here -->
+                            <img class="circular--square" src="images/MarkerImages-sq.jpg" alt="Multiple photos of marker">
+                        </div>
+                        <p>Want to see what the marker and the surrounding area looks like? Scroll through crowd-sourced photos and add your own.</p>
+                    </div>
+                    <div class="feature" id="fromhome">
+                        <div class="featuretitle">
+                            <h3>Explore markers<span id="accent">from home</span></h3>
+                        </div>
+                        <div class="featureimage">
+                            <img class="circular--square" src="images/InDepthMarkerInfo-sq.jpg" alt="Featured Marker">
                         </div>                        
-                        <p>asldj ssdfg dsfg sdfgsd fgfa ksdj</p>
+                        <p>Planning a route or exploring from your couch? Click on various eMarker entries to help you plan a trip or enjoy a virtual trip from the comfort of home.</p>
                     </div>
                 </div>
            </div>
@@ -71,7 +82,9 @@
         </div>
 
         <div class="footer">
-    
+            <div class="footertitle">
+                <h3>Truly explore the open road with <span id="accent3">eMarkers</span><span>&nbsp;</span></span></h3>
+            </div>
         </div>
         
     </div>
