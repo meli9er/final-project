@@ -34,13 +34,6 @@ h3 {
     line-height: 80%; 
 }
 
-#accent3 {
-    font: normal normal 400 30px 'Knewave', cursive;
-    float: right;
-    /* margin: 25px 0px; */
-    line-height: 80%; 
-}
-
 body {
     margin: 0 auto;
     font-family: 'Raleway', sans-serif;
@@ -83,7 +76,6 @@ body {
     overflow: hidden;
     display: flex;
     justify-content: flex-end;
-    
 }
 
 .search {
@@ -111,9 +103,9 @@ body {
     align-items: center;
     justify-content: space-around;
     width: 30%;
-    /* background-image: url("iphoneblank.jpg");
-    background-repeat: no-repeat; */
-    /* color: red; */
+    border-top: 2px solid #F9D534;
+    border-bottom: 2px solid #F9D534;
+    border-right: 2px solid #F9D534;
 }
 
 .phonebannerimage {
@@ -183,14 +175,6 @@ body {
     flex-basis: 55%;
 }
 
-/* .featuretitleb {
-    align-items: flex-end;
-    border: 2px solid purple;
-    margin-top: -10%;
-    margin-bottom: 20%; 
-    flex-basis: 7%;
-} */
-
 .featureimage {
     box-sizing: border-box;
     flex-basis: 50%;
@@ -220,15 +204,6 @@ body {
     
 } */
 
-/* .photo div {
-    box-sizing: border-box;
-    flex-basis: 100%;
-    overflow: hidden;
-    background-size: cover;
-    display: flex;
-    border: 2px solid green;
-} */
-
 .footer {
     display: flex;
     box-sizing: border-box;
@@ -236,6 +211,11 @@ body {
     align-items:center;
     background-color: E8E8E8;
     border-top: 6px solid #F9D534;
-    
 }
 
+#accent3 {
+    font: normal normal 400 30px 'Knewave', cursive;
+    float: right;
+    /* margin: 25px 0px; */
+    line-height: 80%; 
+}
